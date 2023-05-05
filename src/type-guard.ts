@@ -65,10 +65,10 @@ class Dog extends Lover{
     }
 }
 
-function isDog(animal: Lover):animal is Dog{
+function isDog(animal: Lover):animal is Dog{ // use it first if condition
     return animal instanceof Dog
 }
-function isCat(animal: Lover):animal is Cat{
+function isCat(animal: Lover):animal is Cat{ // Not Use
     return animal instanceof Cat
 }
 
